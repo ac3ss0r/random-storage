@@ -1,2 +1,2 @@
-# vm-dumping
-A virtual mashine native id database for detecting popular VM services.
+# random-storage
+This repository is used as a storage for files which are downloaded or accessed by my applications.
