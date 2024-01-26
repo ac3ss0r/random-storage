@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "lolzteammod:block/example_block"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "lolzteammod",
+	"version": "${version}",
+	"name": "LolzteamMod",
+	"description": "A mod demo mod specially for lolzteam!",
+	"authors": [
+		"Acessor"
+	],
+	"contact": {
+		"homepage": "https://acessor.pages.dev"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/lolzteammod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"acessor.lolzteam.LolzteamMod"
+		]
+	},
+	"mixins": [
+		"lolzteammod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
